@@ -101,8 +101,8 @@
     height:100%;
     object-fit:cover;
     object-position:60% 20%;
+    /* Scale kept at 1 to prevent pixelation */
     transform:scale(1);
-    /* Reduced scale down to 1 to fix pixelation */
     animation:hero-in 1.6s cubic-bezier(.2,.7,.2,1) both;
   }
   @keyframes hero-in{
@@ -467,6 +467,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.06);
     background: #000;
+    margin-top: 16px;
   }
   .video-card iframe{
     position: absolute;
@@ -555,8 +556,8 @@
 
   <!-- HERO -->
   <section class="hero">
-    <!-- Using GitHub raw URL to ensure loading -->
-    <img class="hero-img" src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/kimono-shrine.jpg" alt="Jackie Lee-Martinez in Kyoto, Japan">
+    <!-- Updated path to the images/ directory -->
+    <img class="hero-img" src="images/kimono-shrine.jpg" alt="Jackie Lee-Martinez in Kyoto, Japan">
     <div class="hero-content">
       <div class="wrap" style="padding:0;">
         <div class="hero-kicker">Marketing & Influencer Relations — Content Strategy — Digital Engagement</div>
@@ -632,13 +633,13 @@
     <div class="wrap">
       <div class="label reveal">Selected work — on location</div>
       <div class="mosaic reveal">
-        <!-- Using GitHub raw URLs -->
-        <div class="m-item m1"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/kimono-shrine.jpg" alt="Kyoto, Japan"><div class="m-cap">Kyoto, Japan</div></div>
-        <div class="m-item m2"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/tokyo-racing.jpg" alt="Shibuya, Tokyo"><div class="m-cap">Shibuya, Tokyo</div></div>
-        <div class="m-item m3"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/pink-dress-nyc.jpg" alt="Meatpacking District, NYC"><div class="m-cap">Meatpacking, NYC</div></div>
-        <div class="m-item m4"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/ocean-knit.jpg" alt="Coastal editorial"><div class="m-cap">Coastal editorial</div></div>
-        <div class="m-item m5"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/brooklyn-bridge.jpg" alt="Brooklyn Bridge, NYC"><div class="m-cap">Brooklyn Bridge, NYC</div></div>
-        <div class="m-item m6"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/black-outfit-nyc.jpg" alt="Midtown, NYC"><div class="m-cap">Midtown, NYC</div></div>
+        <!-- Updated paths to the images/ directory -->
+        <div class="m-item m1"><img src="images/kimono-shrine.jpg" alt="Kyoto, Japan"><div class="m-cap">Kyoto, Japan</div></div>
+        <div class="m-item m2"><img src="images/tokyo-racing.jpg" alt="Shibuya, Tokyo"><div class="m-cap">Shibuya, Tokyo</div></div>
+        <div class="m-item m3"><img src="images/pink-dress-nyc.jpg" alt="Meatpacking District, NYC"><div class="m-cap">Meatpacking, NYC</div></div>
+        <div class="m-item m4"><img src="images/ocean-knit.jpg" alt="Coastal editorial"><div class="m-cap">Coastal editorial</div></div>
+        <div class="m-item m5"><img src="images/brooklyn-bridge.jpg" alt="Brooklyn Bridge, NYC"><div class="m-cap">Brooklyn Bridge, NYC</div></div>
+        <div class="m-item m6"><img src="images/black-outfit-nyc.jpg" alt="Midtown, NYC"><div class="m-cap">Midtown, NYC</div></div>
       </div>
     </div>
   </section>
@@ -648,10 +649,10 @@
     <div class="wrap">
       <div class="label reveal">The lifestyle beat — dining, culture, detail shots</div>
       <div class="mosaic reveal" style="grid-template-rows:auto;">
-        <!-- Using GitHub raw URLs -->
-        <div class="m-item" style="grid-column:span 2; grid-row:span 24;"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/restaurant-gold.jpg" alt="Restaurant interior, NYC"><div class="m-cap">Dining features, NYC</div></div>
-        <div class="m-item" style="grid-column:span 2; grid-row:span 24;"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/dessert-lv.jpg" alt="Tasting menu detail"><div class="m-cap">Tasting menu detail</div></div>
-        <div class="m-item" style="grid-column:span 2; grid-row:span 24;"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/hellokitty-cafe.jpg" alt="Café content, NYC"><div class="m-cap">Café content, NYC</div></div>
+        <!-- Updated paths to the images/ directory -->
+        <div class="m-item" style="grid-column:span 2; grid-row:span 24;"><img src="images/restaurant-gold.jpg" alt="Restaurant interior, NYC"><div class="m-cap">Dining features, NYC</div></div>
+        <div class="m-item" style="grid-column:span 2; grid-row:span 24;"><img src="images/dessert-lv.jpg" alt="Tasting menu detail"><div class="m-cap">Tasting menu detail</div></div>
+        <div class="m-item" style="grid-column:span 2; grid-row:span 24;"><img src="images/hellokitty-cafe.jpg" alt="Café content, NYC"><div class="m-cap">Café content, NYC</div></div>
       </div>
     </div>
   </section>
@@ -659,8 +660,8 @@
   <!-- UGC PHILOSOPHY SPLIT -->
   <section class="split">
     <div class="split-img">
-      <!-- Using GitHub raw URL -->
-      <img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/restaurant-pink.jpg" alt="Restaurant interior">
+      <!-- Updated path to the images/ directory -->
+      <img src="images/restaurant-pink.jpg" alt="Restaurant interior">
     </div>
     <div class="split-copy">
       <div class="label" style="margin-bottom:20px;">The approach</div>
@@ -744,9 +745,9 @@
   <section class="section-tight">
     <div class="wrap">
       <div class="mosaic reveal" style="grid-template-columns:repeat(2, 1fr); grid-auto-rows:18px;">
-        <!-- Using GitHub raw URLs -->
-        <div class="m-item" style="grid-row:span 26;"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/graduation.jpg" alt="Pace University graduation"><div class="m-cap">Pace University, BBA Marketing</div></div>
-        <div class="m-item" style="grid-row:span 26;"><img src="https://raw.githubusercontent.com/RawwnBuilds/Jackie-Lee-Martinez/main/tokyo-racing.jpg" alt="Shibuya street style"><div class="m-cap">Shibuya street style</div></div>
+        <!-- Updated paths to the images/ directory -->
+        <div class="m-item" style="grid-row:span 26;"><img src="images/graduation.jpg" alt="Pace University graduation"><div class="m-cap">Pace University, BBA Marketing</div></div>
+        <div class="m-item" style="grid-row:span 26;"><img src="images/tokyo-racing.jpg" alt="Shibuya street style"><div class="m-cap">Shibuya street style</div></div>
       </div>
     </div>
   </section>
@@ -756,8 +757,8 @@
     <div class="wrap">
       <div class="label reveal">Featured Video</div>
       <div class="video-card reveal">
-        <!-- REPLACE THE 'src' URL WITH YOUR ACTUAL YOUTUBE EMBED LINK -->
-        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Replace the src link below with your actual YouTube embed link -->
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </section>
